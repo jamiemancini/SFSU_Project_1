@@ -1,6 +1,9 @@
 import random
 
 #make your list of random numbers:
+#NEXT: turn this into a function
+#arguments are the number of elements in the list
+#AND the size of the elements in the list 
 
 list = []
 
