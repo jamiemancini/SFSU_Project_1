@@ -1,0 +1,21 @@
+Project 1 (Due by 9/14 4:30 pm) 10%
+Hi teachers,
+
+Here is Project 1 Description.
+
+
+With this project, I want you to do some hands-on practices on loop with a list.
+
+During the class, you will be learning and exercising with simple data points first. Utilizing the code, extend it to calculate larger lists and realistic data.
+Let’s think of calculating the mean of the given data points.
+
+1. Make your list bigger (at least 1000 elements) and use the random values between 100 to 10000. Use this list and calculate the mean, standard deviation and then plot the values using the Matplotlib. You need to make a histogram of the data.
+
+2. Now, use a real data such as the housing data shown in the provided code base (LR on house price.ipynb) and repeat the same process in Q1 on 2 of the variables. Not only shows the histograms, please show the corelation of the 2 variables..
+
+3. Use the two variables selected for Q2, write one linear search and a binary search functions with your own code. Run the code multiple times and see if you can show the performance difference.
+
+4. Write your own English version algorithm of linear search and the binary search and discuss what are clear and what are not so clear. 
+
+5. Explain why the performance difference happens using a list1, list2, list3 considering that list1 has 1,000 elements, list2 has 1,000,000 elements, and list3 has 1,000,000,000 elements in their worst case performance.
+
