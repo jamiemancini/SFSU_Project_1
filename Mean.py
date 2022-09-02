@@ -1,14 +1,18 @@
 import random
 
-#make your list of random numbers:
-#NEXT: turn this into a function
-#arguments are the number of elements in the list
-#AND the size of the elements in the list 
 
-list = []
+#arguments are the number of elements in the list (1000)
+#AND the value of the elements in the list (values betw 100  and 10000)
 
-for i in range(10, 1000):
-        list.append(random.randrange(100, 1000,1))
+def create_list(num_elements, start_value, end_value):
+    """makes a list of elements with values between specified values"""
+
+    list = []
+
+    for i in range(num_elements):
+        list.append(random.randrange(start_value, end_value,1))
+
+    return list
 
 #Caluclate the mean of the list
 
